@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pack.SimpleTests" time="2.049" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pack.SimpleTests" time="2.092" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="D:\IntelliJ IDEA\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin"/>
-    <property name="sun.java.command" value="C:\Users\Artemij\AppData\Local\Temp\surefire15951312150716805260\surefirebooter14988111992622791898.jar C:\Users\Artemij\AppData\Local\Temp\surefire15951312150716805260 2020-05-19T03-24-58_869-jvmRun1 surefire7687207631170249015tmp surefire_07808062711264234374tmp"/>
+    <property name="sun.java.command" value="C:\Users\Artemij\AppData\Local\Temp\surefire5167601260411795451\surefirebooter1577728439323885406.jar C:\Users\Artemij\AppData\Local\Temp\surefire5167601260411795451 2020-05-19T03-41-00_691-jvmRun1 surefire9066615590484292134tmp surefire_01071095250989507437tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Institute\6 семестр\Технологии разработки ПО\лаба 5\TRPO_Lab5-master\target\test-classes;D:\Institute\6 семестр\Технологии разработки ПО\лаба 5\TRPO_Lab5-master\target\classes;C:\Users\Artemij\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\Artemij\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Artemij\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Artemij\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Artemij\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Artemij\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Artemij\AppData\Local\Temp\surefire15951312150716805260\surefirebooter14988111992622791898.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Artemij\AppData\Local\Temp\surefire5167601260411795451\surefirebooter1577728439323885406.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.5+10-b520.38"/>
@@ -60,7 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="FirstTest" classname="pack.SimpleTests" time="0.024"/>
-  <testcase name="SecondTest" classname="pack.SimpleTests" time="0.004"/>
-  <testcase name="ThirdTest" classname="pack.SimpleTests" time="0.019"/>
+  <testcase name="FirstModule" classname="pack.SimpleTests" time="0.029"/>
+  <testcase name="SecondModule1" classname="pack.SimpleTests" time="0.008"/>
+  <testcase name="SecondModule2" classname="pack.SimpleTests" time="0.019"/>
+  <testcase name="SecondModule3" classname="pack.SimpleTests" time="0.005"/>
+  <testcase name="ThirdModule1" classname="pack.SimpleTests" time="0.004"/>
+  <testcase name="ThirdModule2" classname="pack.SimpleTests" time="0.01"/>
 </testsuite>

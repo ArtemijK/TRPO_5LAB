@@ -1,24 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="3" failed="0" skipped="0">
+<testng-results total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-18T23:25:03Z" name="Surefire suite" finished-at="2020-05-18T23:25:03Z" duration-ms="90">
+  <suite started-at="2020-05-18T23:41:05Z" name="Surefire suite" finished-at="2020-05-18T23:41:05Z" duration-ms="90">
     <groups>
     </groups>
-    <test started-at="2020-05-18T23:25:03Z" name="Surefire test" finished-at="2020-05-18T23:25:03Z" duration-ms="90">
+    <test started-at="2020-05-18T23:41:05Z" name="Surefire test" finished-at="2020-05-18T23:41:05Z" duration-ms="90">
       <class name="pack.SimpleTests">
-        <test-method signature="FirstTest()[pri:0, instance:pack.SimpleTests@569cfc36]" started-at="2020-05-19T03:25:03Z" name="FirstTest" finished-at="2020-05-19T03:25:03Z" duration-ms="23" status="PASS">
+        <test-method signature="FirstModule(int)[pri:0, instance:pack.SimpleTests@4e718207]" started-at="2020-05-19T03:41:05Z" name="FirstModule" data-provider="FirstModuleData" finished-at="2020-05-19T03:41:05Z" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1483316584]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FirstTest -->
-        <test-method signature="SecondTest()[pri:0, instance:pack.SimpleTests@569cfc36]" started-at="2020-05-19T03:25:03Z" name="SecondTest" finished-at="2020-05-19T03:25:03Z" duration-ms="4" status="PASS">
+        </test-method> <!-- FirstModule -->
+        <test-method signature="SecondModule1(int, int)[pri:0, instance:pack.SimpleTests@4e718207]" started-at="2020-05-19T03:41:05Z" name="SecondModule1" data-provider="SecondModule1Data" finished-at="2020-05-19T03:41:05Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1017863659]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-642702612]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SecondTest -->
-        <test-method signature="ThirdTest()[pri:0, instance:pack.SimpleTests@569cfc36]" started-at="2020-05-19T03:25:03Z" name="ThirdTest" finished-at="2020-05-19T03:25:03Z" duration-ms="19" status="PASS">
+        </test-method> <!-- SecondModule1 -->
+        <test-method signature="SecondModule2(int)[pri:0, instance:pack.SimpleTests@4e718207]" started-at="2020-05-19T03:41:05Z" name="SecondModule2" data-provider="SecondModule2Data" finished-at="2020-05-19T03:41:05Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[861190430]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ThirdTest -->
+        </test-method> <!-- SecondModule2 -->
+        <test-method signature="SecondModule3(int)[pri:0, instance:pack.SimpleTests@4e718207]" started-at="2020-05-19T03:41:05Z" name="SecondModule3" data-provider="SecondModule3Data" finished-at="2020-05-19T03:41:05Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1433444536]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondModule3 -->
+        <test-method signature="ThirdModule1(int, int, int)[pri:0, instance:pack.SimpleTests@4e718207]" started-at="2020-05-19T03:41:05Z" name="ThirdModule1" data-provider="ThirdModule1Data" finished-at="2020-05-19T03:41:05Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[472278266]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[146205660]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdModule1 -->
+        <test-method signature="ThirdModule2(int)[pri:0, instance:pack.SimpleTests@4e718207]" started-at="2020-05-19T03:41:05Z" name="ThirdModule2" data-provider="FirstModuleData" finished-at="2020-05-19T03:41:05Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-800124967]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdModule2 -->
       </class> <!-- pack.SimpleTests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
